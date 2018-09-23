@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .parent {
+            position: relative;
+            background-color: #357ebd;
+            width: 900px;
+            height: 500px;
+        }
+
+        #toolbar {
+            position: absolute;
+            background-color: #57ad68;
+        }
+    </style>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
+</head>
+
+<body>
+    <!-- <div id ="ABC">cáhcuiahsoicjoiascijaiscjiaso</div> -->
+    <div class="parent">
+        <!-- <div id="toolbar">
+            <a href="#" data-command='h2'>H2</a>
+            <a href="#" data-command='undo'><i class='fa fa-undo'></i></a>
+            <a href="#" data-command='createlink'><i class='fa fa-link'></i></a>
+            <a href="#" data-command='justifyLeft'><i class='fa fa-align-left'></i></a>
+            <a href="#" data-command='superscript'><i class='fa fa-superscript'></i></a>
+        </div> -->
+        <div contentEditAble class="conentedit">
+          cáhcuiahsoicjoiascijaiscjiasokjvnc
+          dvsjsdnkvjnsdv
+          vsdljvsdjvnkjsdnv
+          vdsnvjsdnjkvsd
+          cascascasca
+          cascasa
+          cascas
+          vsdnvkjsdn
+          ascpascascas
+          cascnasjnckjanskjcnja
+        </div>
+    </div>
+    <!-- <div contentEditAble class="conentedit">
+          
+        </div> -->
+<script src="../dist/richKidTest.js"></script>
+  
+</body>
+<script>
+     const dom  = document.getElementsByClassName('conentedit')[0];
+    //  console.log('toolbar' , toolbar)
+     ducQuery(dom).addToolbar();
+</script>
+</html>
+
+    <!-- 
+    //     var colorPalette = ['000000', 'FF9966', '6699FF', '99FF66','CC0000', '00CC00', '0000CC', '333333', '0066FF', 'FFFFFF'];
+                     
+    //                  var forePalette =$('#toolbar')
+    //                  for (var i = 0; i < colorPalette.length; i++) {
+    //                    forePalette.append('<a href="#" data-command="forecolor" data-value="' + '#' + colorPalette[i] + '" style="background-color:' + '#' + colorPalette[i] + ';" class="palette-item"></a>');
+    //                  }
+    //                  $('.conentedit').on('blur', e => {
+    //                     const selection = window.getSelection()
+    //         const domText = selection.getRangeAt(0)
+    //         const rectText = domText.getBoundingClientRect()
+    //         console.log('rectText', rectText)
+
+    //         $('#toolbar').css({
+    //             top: rectText.top,
+    //             left: rectText.left
+    //         })
+           
+
+    //         // $('.my-content').ducContentEditable()
+    //         // $(domeRef).ducPosition()
+
+    //         // $(this.domRef).draggable()
+    //         // $(this.domRef).slick()
+
+    //         // _("hello world").ducFormatString()
+    //         // _([1,2,3,4]).ducSuperMap()
+
+    //         // new DucEditableContent(this.domRef)
+
+    //         observeRect(this.domRef)
+
+    //         document.getElementById('toolbar').style.top = rectText.top
+    //         document.getElementById('toolbar').style.left = rectText.left
+    //                  })
+    //     // setInterval(function () {
+           
+    //     // }, 1000)
+    //     $('[data-command]').on('click', function () {
+    //         var command = $(this).data('command');
+    //         // document.execCommand('Style')
+    //         if (command == 'h1' || command == 'h2' || command == 'p') {
+    //             document.execCommand('formatBlock', false, command);
+    //             document.execCommand('formatBlock ' , false , 'h2')
+    //         }
+    //         if (command == 'forecolor' || command == 'backcolor') {
+    //             document.execCommand($(this).data('command'), false, $(this).data('value'));
+    //         }
+
+    //         if (command == 'createlink' || command == 'insertimage') {
+    //             url = prompt('Enter the link here: ', 'http:\/\/');
+    //             document.execCommand($(this).data('command'), false, url);
+    //         }
+    //         else document.execCommand($(this).data('command'), false, null);
+    //     })
+    // 
+    // -->
+
